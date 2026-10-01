@@ -256,7 +256,7 @@ enum Format {
         if hours >= 24 { return "\(hours / 24)d \(hours % 24)h" }
         if hours > 0 { return "\(hours)h \(minutes)min" }
         if minutes > 0 { return "\(minutes)min" }
-        return "menos de 1min"
+        return "<1min"
     }
 
     static func sessionReset(_ date: Date?, now: Date, includeTime: Bool = true) -> String {
