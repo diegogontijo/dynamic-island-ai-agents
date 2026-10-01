@@ -88,18 +88,3 @@ Os tokens são **apenas lidos**: o app nunca os renova nem os modifica, então o
    ```bash
    rm -rf /Applications/AgentIsland.app
    ```
-
-## Estrutura do projeto
-
-```
-Sources/AgentIsland/
-├── main.swift                  # ponto de entrada
-├── AppDelegate.swift           # inicialização do app
-├── NotchController.swift       # janela sobre o notch, abrir/fechar, eventos de mouse
-├── NotchViews.swift            # interface do painel (SwiftUI)
-├── StatusItemController.swift  # ícone e menu da barra de menus, abrir ao iniciar sessão
-├── UsageProviders.swift        # leitura das credenciais e chamadas às APIs
-├── UsageStore.swift            # estado e atualização periódica
-└── UsageModels.swift           # modelos de dados
-scripts/build.sh                # compila, monta o .app, gera o ícone e instala
-```
