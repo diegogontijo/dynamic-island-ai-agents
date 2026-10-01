@@ -1,6 +1,12 @@
-# Agent Island
+<p align="center">
+  <img src="logo.png" alt="Logo do Agent Island" width="128" height="128">
+</p>
 
-Transforma o notch do MacBook numa "Dynamic Island" que mostra quanto ainda resta dos seus limites de uso do **Claude Code** e do **Codex**.
+<h1 align="center">Agent Island</h1>
+
+<p align="center">
+  Transforma o notch do MacBook numa "Dynamic Island" que mostra quanto ainda resta dos seus limites de uso do <strong>Claude Code</strong> e do <strong>Codex</strong>.
+</p>
 
 ![Painel do Agent Island aberto sobre o notch, mostrando os limites de 5 horas e semanais do Claude Code e do Codex](docs/screenshot.png)
 
