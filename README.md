@@ -2,6 +2,8 @@
 
 Transforma o notch do MacBook numa "Dynamic Island" que mostra quanto ainda resta dos seus limites de uso do **Claude Code** e do **Codex**.
 
+![Painel do Agent Island aberto sobre o notch, mostrando os limites de 5 horas e semanais do Claude Code e do Codex](docs/screenshot.png)
+
 Clique no notch e um painel se abre com:
 
 - a porcentagem restante da **janela de 5 horas** de cada ferramenta e quanto tempo falta para ela reiniciar
